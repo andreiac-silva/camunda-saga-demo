@@ -5,8 +5,8 @@ spring:
   datasource:
     url: jdbc:h2:mem:example-app;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     platform: h2
-    username: sa
-    password: null
+    username: admin
+    password: admin
     driverClassName: org.h2.Driver
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
