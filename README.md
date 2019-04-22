@@ -2,7 +2,7 @@
 
 Demo preparada para apresentação: "A Saga da consistência de dados entre microservices"
 
-Neste exemplo, temos dois microservices simples, cada um utilizando um banco de dados diferente. Para facilitar, ambos utilizam o H2.
+Neste exemplo, temos três microservices simples:
 
 Services:
   - fidelity-customer-service
@@ -11,6 +11,8 @@ Services:
 SEC Service (Saga Execution Coordinator):
   - fidelity-order-service-sec
  
+Para facilitar, os microservices utilizam a base de dados H2, que funciona in-memory.
+
 No serviço de Customer, existe um script pré definido, dentro da pasta resources, onde insero um Customer assim que a aplicação é iniciada. Um atributo importante é o "numberOfPoints". Esses serviços, juntos, formam uma parte de uma aplicação onde o Customer possui pontos. Uma Order pode ser aberta pelo cliente e então, verificamos se o mesmo possui a quantidade de pontos necessária para que a Order seja aprovada. Os passos iniciais são:
 
 1- Criar uma Order com status PENDING
