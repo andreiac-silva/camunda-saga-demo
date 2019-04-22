@@ -11,11 +11,53 @@ HELP.md
 .springBeans
 .sts4-cache
 
+## Maven:
+!.mvn/wrapper/maven-wrapper.jar
+/.mvn/
+/mvnw
+/mvnw.bat
+mvnw.cmd
+/log/
+*.log*
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
+
+## Eclipse, Spring, and Gradle:
+.classpath
+.project
+.settings
+.factorypath
+.springBeans
+*.pydevproject
+.metadata
+.gradle
+bin/
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+# External tool builders
+.externalToolBuilders/
+# Locally stored "Eclipse launch configurations"
+*.launch
+# CDT-specific
+.cproject
+# PDT-specific
+.buildpath
+# sbteclipse plugin
+.target
+# TeXlipse plugin
+.texlipse
 
 ### NetBeans ###
 /nbproject/private/
