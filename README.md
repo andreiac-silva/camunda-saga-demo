@@ -17,7 +17,7 @@ No serviço de Customer, existe um script pré definido, dentro da pasta resourc
 
   - Criar uma Order com status PENDING
   - Verificar no serviço de Customer se o cliente possui os pontos necessários para que a Order seja aprovada
-    - Debita do saldo do cliente e o status da Order é alterado para APPROVED
+    - Debita do saldo do cliente e o status da Order é alterado para APPROVED ou
     - O saldo do cliente continua o mesmo mas o status da Order é alterado para CANCELLED
   
 Neste caso, possuímos uma Saga com apenas dois participantes (fidelity-customer-service e fidelity-order-service) e trẽs passos. 
