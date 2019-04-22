@@ -12,9 +12,9 @@
 	</parent>
 
 	<groupId>com.tdc.saga.demo</groupId>
-	<artifactId>order-service</artifactId>
+	<artifactId>fidelity-order-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>order-service</name>
+	<name>fidelity-order-service</name>
 	<description>Saga Demo - Order Service</description>
 
 	<properties>
