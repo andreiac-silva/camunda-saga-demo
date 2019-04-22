@@ -8,7 +8,7 @@ Services:
   - fidelity-customer-service
   - fidelity-order-service
  
-SEC Service (Saga Execution Coordinator):
+SEC (Saga Execution Coordinator) Service:
   - fidelity-order-service-sec
  
 Para facilitar, os microservices utilizam a base de dados H2, que funciona in-memory.
