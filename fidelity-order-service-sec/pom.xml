@@ -11,9 +11,9 @@
 	</parent>
 
 	<groupId>com.tdc.saga.demo</groupId>
-	<artifactId>fidelity-order-sec</artifactId>
+	<artifactId>fidelity-order-service-sec</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>fidelity-order-sec</name>
+	<name>fidelity-order-service-sec</name>
 	<description>Saga Demo - Fidelity Order SEC</description>
 
 	<properties>

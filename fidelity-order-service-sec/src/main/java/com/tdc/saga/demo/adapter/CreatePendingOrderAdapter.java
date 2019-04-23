@@ -41,7 +41,7 @@ public class CreatePendingOrderAdapter extends AbstractAdapter {
 			return;
 		}
 
-		ctx.setVariable(CREATED_ORDER_ID, 1L);
+		ctx.setVariable(CREATED_ORDER_ID, orderId);
 		logger.log(Level.INFO, "Pending Order Created. Id {0}. ", orderId);
 	}
 }
