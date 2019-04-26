@@ -1,4 +1,7 @@
-# Demo de Saga Coreografada usando Camunda e Spring Boot - Choreography-based Saga demo Using Camunda and Spring Boot
+# TO DO:
+  - Integrar demo com workflow do camunda para que em tempo real, seja possível verificar requisições que falharam, o ponto exato das falhas, taxa de sucesso, etc
+
+# Demo de Saga Coreografada utilizando Camunda - Choreography-based Saga demo Using Camunda
 
 Demo preparada para apresentação: "A Saga da consistência de dados entre microservices"
 
